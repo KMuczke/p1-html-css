@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUI</title>
+</head>
+<body>
+    <h1>Bookings Formulier</h1>
+
+    <hr>
+
+<form action="">
+
+    <label for="First Name">Voornaam: <br> </label>
+
+    <input type="text" name="First Name"  pattern="[a-zA-Z]">
+
+    <br>
+
+    <label for="Last Name">Achternaam: <br> </label>
+    
+    <input type="text" name="Last Name">
+    
+    <br><br>
+
+    <label for="Gender">Geslachte:</label>
+        
+    <input type="radio" name="Gender" value="Man" checked> Man
+
+    <input type="radio" name="Gender" value="Vrouw"> Vrouw
+
+    <br><br>
+
+    <label for="Street">Straat: <br> </label>
+    
+    <input type="text" name="Street">
+
+
+
+    <label for="Streetnum">Huisnummer: </label>
+    
+    <input type="number" name="Streetnum" min="1" max="999">
+
+    <br>
+
+    <label for="PostCode">Postcode: <br> </label>
+    
+    <input type="text" name="PostCode">  
+    
+    <br>
+
+    <label for="Country">Land: <br> </label>
+    
+    <input type="select" name="Country">
+
+    <br>
+
+    <label for="BSNNUM">BSN Nummer: <br> </label>
+    
+    <input type="number" name="BSNNUM" max="999999999">
+    
+    <br><br>
+
+    <label for="Countries">Kies een Vakantieland:</label>
+    <br>
+    <select id="Countries" name="Landen" size="4" multiple>
+      <option value="Ireland">Ierland</option>
+      <option value="Portugal">Portugal</option>
+      <option value="Poland">Polen</option>
+      <option value="Australia">Australië</option>
+    </select>
+
+    <br><br>
+
+    <form>
+        <label for="VakantieTime">Kies een Tijdstip voor uw Vakantie:</label>
+        <input type="date" id="datemax" name="datemax" min="2024-09-25"><br><br>
+      </form>
+
+      <form></form>
+        <label for="VakantieTime">Kies een Terugkomst tijd voor uw Vakantie:</label>
+        <input type="date" id="datemax" name="datemax" min="2024-09-25"><br><br>
+      </form>
+
+
+
+      <label for="NumPassenger">Aantal Reisgenoten: (max 1 - 4)<br> </label>
+    
+      <input type="number" name="NumPassenger" min="1" max="4">
+
+      <br><br>
+
+
+    <label for="Email">Email Adress: <br> </label>
+    
+    <input type="text" name="Email">
+
+    <br>
+
+    <label for="Password">Wachtwoord: <br> </label>
+    
+    <input type="password" name="Password">
+
+
+    <br><br>
+
+    <input type="submit" value="Boek Nu">
+
+
+
+
+
+     </form>    
+
+</body>
+</html>
